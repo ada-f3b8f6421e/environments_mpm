@@ -1,0 +1,9 @@
+from envtest import dataframe_summary
+
+data = [
+    {"x":1, "y":10},
+    {"x":2, "y":20},
+    {"x":3, "y":30}
+]
+
+print(dataframe_summary(data))
